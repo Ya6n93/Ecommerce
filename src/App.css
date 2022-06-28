@@ -1,0 +1,96 @@
+.navbar {
+  justify-content: flex-end;
+  background-color: darkslategrey;
+}
+
+.btn {
+  margin: 5px;
+}
+
+input {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.ml-25 {
+  margin-left: 25%;
+}
+
+.mr-25 {
+  margin-right: 25px;
+}
+
+a:hover {
+  cursor: pointer;
+  text-decoration: underline!important;
+}
+
+i {
+  cursor: pointer;
+}
+
+.myHalfCol .col-lg-6{padding:0 10px;}
+
+.input-group-text {
+  background-color: darkslategrey;
+  color: white;
+}
+
+.dividerClass{
+  border-top-color: #999
+ }
+
+ .card-img-top {
+   height: 50%;
+ }
+
+ .green {
+   color: green;
+ }
+
+ .red {
+   color: red;
+ }
+
+ table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: 0;
+  text-align: center;
+  width: 1000px;
+}
+th,td {
+  border-bottom: 1px solid #e9e4de;
+  height: 160px;
+}
+th {
+  height: 50px;
+  line-height: 50px;
+  font-weight: normal;
+}
+td {
+  padding: 10px 10px;
+  color: #444;
+  font-weight: bolder;
+}
+tbody tr:hover {background: #CFECEC;}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.border {
+  border-radius: .25rem;
+  border:2px solid green !important;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.border-grey {
+  border: 1px solid rgba(0,0,0,.125); 
+}
